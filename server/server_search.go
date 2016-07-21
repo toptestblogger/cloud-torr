@@ -4,8 +4,8 @@ package server
 //cloud-torrent uses "<id>-item" handlers
 var defaultSearchConfig = []byte(`{
 	"kat": {
-		"name": "Kickass Torrents",
-		"url": "https://kat.cr/usearch/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
+		"name": "Extra Torrents",
+		"url": "https://extratorrent.cc/search/{{query}}/{{page:1}}/?field=seeders&sorder=desc",
 		"list": "#mainSearchTable table tr[id]",
 		"result": {
 			"name":".cellMainLink",
